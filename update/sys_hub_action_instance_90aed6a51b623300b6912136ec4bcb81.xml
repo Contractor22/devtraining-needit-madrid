@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create High Priority Legal request NeedIt Task</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">cf4cb5111ba23300b6912136ec4bcb53</flow>
+        <order>3.2.1.1</order>
+        <parent_ui_id>36e4642d-2648-48bb-8a81-39c660463518</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 00:48:13</sys_created_on>
+        <sys_id>90aed6a51b623300b6912136ec4bcb81</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_90aed6a51b623300b6912136ec4bcb81</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-07-10 01:27:33</sys_updated_on>
+        <ui_id>e386bfd9-f9eb-47f3-8d27-a15636dd9038</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=90aed6a51b623300b6912136ec4bcb81"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90aed6a51b623300b6912136ec4bcb81</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 01:01:16</sys_created_on>
+        <sys_id>6391a6691b623300b6912136ec4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 01:01:16</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90aed6a51b623300b6912136ec4bcb81</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 00:48:13</sys_created_on>
+        <sys_id>64aed6a51b623300b6912136ec4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 00:48:13</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=90aed6a51b623300b6912136ec4bcb81"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>90aed6a51b623300b6912136ec4bcb81</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 00:48:13</sys_created_on>
+        <sys_id>e0aed6a51b623300b6912136ec4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 00:48:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>u_needit={{9bfca820-f165-45bb-98f6-ec4febdf86d5.record}}^assigned_to={{3c05ce1f-bd1a-48b5-8ad3-c0d9974fe752.answer.assignee}}^due_date={{3d03e4ee-09df-42fe-b702-dd33f8a84e8b.record.u_when_needed}}^short_description= Complete High Priority Legal NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>90aed6a51b623300b6912136ec4bcb81</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 01:01:16</sys_created_on>
+        <sys_id>ef91a6691b623300b6912136ec4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 01:01:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_needit={{9bfca820-f165-45bb-98f6-ec4febdf86d5.record}}^assigned_to={{3c05ce1f-bd1a-48b5-8ad3-c0d9974fe752.answer.assignee}}^due_date={{3d03e4ee-09df-42fe-b702-dd33f8a84e8b.record.u_when_needed}}^short_description= Complete High Priority Legal NeedIt Task</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>90aed6a51b623300b6912136ec4bcb81</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 00:48:13</sys_created_on>
+        <sys_id>20aed6a51b623300b6912136ec4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 00:48:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>90aed6a51b623300b6912136ec4bcb81</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 01:01:16</sys_created_on>
+        <sys_id>2f91a6691b623300b6912136ec4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 01:01:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
